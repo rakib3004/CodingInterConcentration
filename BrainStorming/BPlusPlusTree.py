@@ -230,7 +230,7 @@ class BplusTree:
                         parentNode = node_.parent
                         for i, item in enumerate(parentNode.values):
                             if item == value_:
-                                p.values[i] = ndashkm_1
+                                #p.values[i] = ndashkm_1##########
                                 break
                     else:
                         ndashpm = ndash.keys.pop(-1)
@@ -238,7 +238,7 @@ class BplusTree:
                         node_.keys = [ndashpm] + node_.keys
                         node_.values = [ndashkm] + node_.values
                         parentNode = node_.parent
-                        for i, item in enumerate(p.values):
+                        for i, item in enumerate(value):##########
                             if item == value_:
                                 parentNode.values[i] = ndashkm
                                 break
