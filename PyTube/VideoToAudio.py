@@ -2,7 +2,7 @@ from pytube import YouTube
 
 # where to save.
 # replce /home/balasundar/Downloads/ with the path where you want to store the dowload file
-destination = "C:\\Users\\pc\\Downloads"
+destination = "E:/"
 # link of the video to be downloaded
 # Replace with the Youtube video link you want to download.
 video_link = "https://www.youtube.com/watch?v=xWOoBJUqlbI"
